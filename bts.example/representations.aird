@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bts="http://www.example.org/bts" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_v7-SgILZEeyJJN0l3PWpuQ" selectedViews="_hiCjEILaEeyJJN0l3PWpuQ" version="14.1.0.201810161215">
+    <semanticResources>MyBus.bts</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_PStE0ILaEeyJJN0l3PWpuQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_hiCjEILaEeyJJN0l3PWpuQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_iH8sgILaEeyJJN0l3PWpuQ" name="new bts" repPath="#_iGO1QILaEeyJJN0l3PWpuQ">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='']"/>
+        <target xmi:type="bts:Bus" href="MyBus.bts#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_hxWC8YOhEey5i7WXJXTdOQ" name="new btsdiagram" repPath="#_hxArwIOhEey5i7WXJXTdOQ">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']"/>
+        <target xmi:type="bts:Passenger" href="MyPassenger.bts#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_tA2BQIOhEey5i7WXJXTdOQ" name="new btsdiagram" repPath="#_tAs3UIOhEey5i7WXJXTdOQ">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']"/>
+        <target xmi:type="bts:Passenger" href="MyPassenger.bts#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_zAEYwIOhEey5i7WXJXTdOQ" name="new btsdiagram" repPath="#_zABVcIOhEey5i7WXJXTdOQ">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']"/>
+        <target xmi:type="bts:Bus" href="MyBus.bts#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_UNu10ITGEeyDo930VO3FEw" name="new btsdiagram" repPath="#_UI4yEITGEeyDo930VO3FEw">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']"/>
+        <target xmi:type="bts:Bus" href="MyBus.bts#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_XhrdYYTHEeyDo930VO3FEw" name="new btsbus" repPath="#_XhpBIITHEeyDo930VO3FEw">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsbus']"/>
+        <target xmi:type="bts:Bus" href="MyBus.bts#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_OV7RwIczEeyHYcQ4FWRhlQ" name="new BTSDiagram" repPath="#_OVE9MIczEeyHYcQ4FWRhlQ">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']"/>
+        <target xmi:type="bts:Bus" href="MyBus.bts#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_iGO1QILaEeyJJN0l3PWpuQ" name="new bts">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_iH0wsILaEeyJJN0l3PWpuQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_iH1XwILaEeyJJN0l3PWpuQ"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_iI1dUILaEeyJJN0l3PWpuQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_iI2EYILaEeyJJN0l3PWpuQ" type="Sirius" element="_iGO1QILaEeyJJN0l3PWpuQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_iJYP4ILaEeyJJN0l3PWpuQ" type="2001" element="_iHSlMILaEeyJJN0l3PWpuQ">
+          <children xmi:type="notation:Node" xmi:id="_iJm5YILaEeyJJN0l3PWpuQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_iJm5YYLaEeyJJN0l3PWpuQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_iJ8QkILaEeyJJN0l3PWpuQ" type="3003" element="_iHlgIILaEeyJJN0l3PWpuQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_iJ8QkYLaEeyJJN0l3PWpuQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iJ8QkoLaEeyJJN0l3PWpuQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_iJYP4YLaEeyJJN0l3PWpuQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iJYP4oLaEeyJJN0l3PWpuQ" x="124" y="52" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_iJ5NQILaEeyJJN0l3PWpuQ" type="2001" element="_iHxGUILaEeyJJN0l3PWpuQ">
+          <children xmi:type="notation:Node" xmi:id="_iJ6bYILaEeyJJN0l3PWpuQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_iJ6bYYLaEeyJJN0l3PWpuQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_iJ83oILaEeyJJN0l3PWpuQ" type="3003" element="_iHxGUYLaEeyJJN0l3PWpuQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_iJ83oYLaEeyJJN0l3PWpuQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iJ83ooLaEeyJJN0l3PWpuQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_iJ5NQYLaEeyJJN0l3PWpuQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iJ5NQoLaEeyJJN0l3PWpuQ" x="196" y="52" width="73" height="30"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_iI2EYYLaEeyJJN0l3PWpuQ"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_iHSlMILaEeyJJN0l3PWpuQ" name="A10" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Seat" href="MyBus.bts#//@seat.0"/>
+      <semanticElements xmi:type="bts:Seat" href="MyBus.bts#//@seat.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_iHlgIILaEeyJJN0l3PWpuQ" labelSize="12" labelPosition="node">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='']/@defaultLayer/@nodeMappings[name='SeatNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='']/@defaultLayer/@nodeMappings[name='SeatNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_iHxGUILaEeyJJN0l3PWpuQ" name="E28" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Seat" href="MyBus.bts#//@seat.1"/>
+      <semanticElements xmi:type="bts:Seat" href="MyBus.bts#//@seat.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_iHxGUYLaEeyJJN0l3PWpuQ" labelSize="12" labelPosition="node">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='']/@defaultLayer/@nodeMappings[name='SeatNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='']/@defaultLayer/@nodeMappings[name='SeatNode']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_iGmBoILaEeyJJN0l3PWpuQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='']/@defaultLayer"/>
+    <target xmi:type="bts:Bus" href="MyBus.bts#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_hxArwIOhEey5i7WXJXTdOQ" name="new btsdiagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_hxVb4IOhEey5i7WXJXTdOQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_hxVb4YOhEey5i7WXJXTdOQ"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_hxWqAIOhEey5i7WXJXTdOQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_hxWqAYOhEey5i7WXJXTdOQ" type="Sirius" element="_hxArwIOhEey5i7WXJXTdOQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_hxXREIOhEey5i7WXJXTdOQ" type="2001" element="_hxB54IOhEey5i7WXJXTdOQ">
+          <children xmi:type="notation:Node" xmi:id="_hxX4IIOhEey5i7WXJXTdOQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_hxX4IYOhEey5i7WXJXTdOQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_hxZGQIOhEey5i7WXJXTdOQ" type="3003" element="_hxLD0IOhEey5i7WXJXTdOQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_hxZGQYOhEey5i7WXJXTdOQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hxZGQoOhEey5i7WXJXTdOQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_hxXREYOhEey5i7WXJXTdOQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hxXREoOhEey5i7WXJXTdOQ" width="73" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_hxYfMIOhEey5i7WXJXTdOQ" type="2001" element="_hxLD0oOhEey5i7WXJXTdOQ">
+          <children xmi:type="notation:Node" xmi:id="_hxYfM4OhEey5i7WXJXTdOQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_hxYfNIOhEey5i7WXJXTdOQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_hxZtUIOhEey5i7WXJXTdOQ" type="3003" element="_hxTmsIOhEey5i7WXJXTdOQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_hxZtUYOhEey5i7WXJXTdOQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hxZtUoOhEey5i7WXJXTdOQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_hxYfMYOhEey5i7WXJXTdOQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hxYfMoOhEey5i7WXJXTdOQ" x="88" width="145" height="30"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_hxWqAoOhEey5i7WXJXTdOQ"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_hxB54IOhEey5i7WXJXTdOQ" name="Invalid feature as name" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Booking" href="MyPassenger.bts#//@booking.0"/>
+      <semanticElements xmi:type="bts:Booking" href="MyPassenger.bts#//@booking.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_hxLD0IOhEey5i7WXJXTdOQ" labelSize="12" labelPosition="node">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']/@defaultLayer/@nodeMappings[name='BookingNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']/@defaultLayer/@nodeMappings[name='BookingNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_hxLD0oOhEey5i7WXJXTdOQ" name="Invalid feature as name" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Booking" href="MyPassenger.bts#//@booking.1"/>
+      <semanticElements xmi:type="bts:Booking" href="MyPassenger.bts#//@booking.1"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_hxTmsIOhEey5i7WXJXTdOQ" labelSize="12" labelPosition="node">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']/@defaultLayer/@nodeMappings[name='BookingNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']/@defaultLayer/@nodeMappings[name='BookingNode']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_hxArwYOhEey5i7WXJXTdOQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']/@defaultLayer"/>
+    <target xmi:type="bts:Passenger" href="MyPassenger.bts#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_tAs3UIOhEey5i7WXJXTdOQ" name="new btsdiagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_tA1aMYOhEey5i7WXJXTdOQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_tA1aMoOhEey5i7WXJXTdOQ"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_tA2oUIOhEey5i7WXJXTdOQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_tA2oUYOhEey5i7WXJXTdOQ" type="Sirius" element="_tAs3UIOhEey5i7WXJXTdOQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_tA3PYIOhEey5i7WXJXTdOQ" type="2001" element="_tAusgIOhEey5i7WXJXTdOQ">
+          <children xmi:type="notation:Node" xmi:id="_tA3PY4OhEey5i7WXJXTdOQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_tA3PZIOhEey5i7WXJXTdOQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_tA4dgIOhEey5i7WXJXTdOQ" type="3003" element="_tAxIwIOhEey5i7WXJXTdOQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_tA4dgYOhEey5i7WXJXTdOQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tA4dgoOhEey5i7WXJXTdOQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_tA3PYYOhEey5i7WXJXTdOQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tA3PYoOhEey5i7WXJXTdOQ" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_tA32cIOhEey5i7WXJXTdOQ" type="2001" element="_tAxIwoOhEey5i7WXJXTdOQ">
+          <children xmi:type="notation:Node" xmi:id="_tA32c4OhEey5i7WXJXTdOQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_tA32dIOhEey5i7WXJXTdOQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_tA5EkIOhEey5i7WXJXTdOQ" type="3003" element="_tA0zIIOhEey5i7WXJXTdOQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_tA5EkYOhEey5i7WXJXTdOQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tA5EkoOhEey5i7WXJXTdOQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_tA32cYOhEey5i7WXJXTdOQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tA32coOhEey5i7WXJXTdOQ" x="88" width="201" height="53"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_tA2oUoOhEey5i7WXJXTdOQ"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_tAusgIOhEey5i7WXJXTdOQ" name="Invalid feature as name" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Booking" href="MyPassenger.bts#//@booking.0"/>
+      <semanticElements xmi:type="bts:Booking" href="MyPassenger.bts#//@booking.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_tAxIwIOhEey5i7WXJXTdOQ" labelSize="12" labelPosition="node">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']/@defaultLayer/@nodeMappings[name='BookingNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']/@defaultLayer/@nodeMappings[name='BookingNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_tAxIwoOhEey5i7WXJXTdOQ" name="Invalid feature as name" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Booking" href="MyPassenger.bts#//@booking.1"/>
+      <semanticElements xmi:type="bts:Booking" href="MyPassenger.bts#//@booking.1"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_tA0zIIOhEey5i7WXJXTdOQ" labelSize="12" labelPosition="node">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']/@defaultLayer/@nodeMappings[name='BookingNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']/@defaultLayer/@nodeMappings[name='BookingNode']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_tAs3UYOhEey5i7WXJXTdOQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']/@defaultLayer"/>
+    <target xmi:type="bts:Passenger" href="MyPassenger.bts#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_zABVcIOhEey5i7WXJXTdOQ" name="new btsdiagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_zADxsIOhEey5i7WXJXTdOQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_zADxsYOhEey5i7WXJXTdOQ"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_zAEYwYOhEey5i7WXJXTdOQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_zAEYwoOhEey5i7WXJXTdOQ" type="Sirius" element="_zABVcIOhEey5i7WXJXTdOQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_zAEYxIOhEey5i7WXJXTdOQ" type="2001" element="_zADKoIOhEey5i7WXJXTdOQ">
+          <children xmi:type="notation:Node" xmi:id="_zAFm4IOhEey5i7WXJXTdOQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_zAFm4YOhEey5i7WXJXTdOQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zAGN8oOhEey5i7WXJXTdOQ" type="3003" element="_zADKoYOhEey5i7WXJXTdOQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zAGN84OhEey5i7WXJXTdOQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zAGN9IOhEey5i7WXJXTdOQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_zAE_0IOhEey5i7WXJXTdOQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zAE_0YOhEey5i7WXJXTdOQ" x="144" y="70" width="89" height="51"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_zAFm4oOhEey5i7WXJXTdOQ" type="2001" element="_zADKo4OhEey5i7WXJXTdOQ">
+          <children xmi:type="notation:Node" xmi:id="_zAGN8IOhEey5i7WXJXTdOQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_zAGN8YOhEey5i7WXJXTdOQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zAJRQIOhEey5i7WXJXTdOQ" type="3003" element="_zADKpIOhEey5i7WXJXTdOQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zAJRQYOhEey5i7WXJXTdOQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zAJRQoOhEey5i7WXJXTdOQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_zAFm44OhEey5i7WXJXTdOQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zAFm5IOhEey5i7WXJXTdOQ" x="320" y="56" width="113" height="57"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_zAEYw4OhEey5i7WXJXTdOQ"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_zADKoIOhEey5i7WXJXTdOQ" name="A10" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Seat" href="MyBus.bts#//@seat.0"/>
+      <semanticElements xmi:type="bts:Seat" href="MyBus.bts#//@seat.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_zADKoYOhEey5i7WXJXTdOQ" labelSize="12" labelPosition="node">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']/@defaultLayer/@nodeMappings[name='SeatNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']/@defaultLayer/@nodeMappings[name='SeatNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_zADKo4OhEey5i7WXJXTdOQ" name="E28" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Seat" href="MyBus.bts#//@seat.1"/>
+      <semanticElements xmi:type="bts:Seat" href="MyBus.bts#//@seat.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_zADKpIOhEey5i7WXJXTdOQ" labelSize="12" labelPosition="node">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']/@defaultLayer/@nodeMappings[name='SeatNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']/@defaultLayer/@nodeMappings[name='SeatNode']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_zABVcYOhEey5i7WXJXTdOQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']/@defaultLayer"/>
+    <target xmi:type="bts:Bus" href="MyBus.bts#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_UI4yEITGEeyDo930VO3FEw" name="new btsdiagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_UNch8ITGEeyDo930VO3FEw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_UNch8YTGEeyDo930VO3FEw"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_UO5TcITGEeyDo930VO3FEw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_UO5TcYTGEeyDo930VO3FEw" type="Sirius" element="_UI4yEITGEeyDo930VO3FEw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_UPd7MITGEeyDo930VO3FEw" type="2001" element="_ULsOcITGEeyDo930VO3FEw">
+          <children xmi:type="notation:Node" xmi:id="_UP2VsITGEeyDo930VO3FEw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_UP2VsYTGEeyDo930VO3FEw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_UQxiwITGEeyDo930VO3FEw" type="3003" element="_UM9ZwITGEeyDo930VO3FEw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_UQxiwYTGEeyDo930VO3FEw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UQxiwoTGEeyDo930VO3FEw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_UPd7MYTGEeyDo930VO3FEw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UPd7MoTGEeyDo930VO3FEw" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_UQvGgITGEeyDo930VO3FEw" type="2001" element="_UNSw8ITGEeyDo930VO3FEw">
+          <children xmi:type="notation:Node" xmi:id="_UQvtkITGEeyDo930VO3FEw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_UQvtkYTGEeyDo930VO3FEw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_UQyJ0ITGEeyDo930VO3FEw" type="3003" element="_UNSw8YTGEeyDo930VO3FEw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_UQyJ0YTGEeyDo930VO3FEw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UQyJ0oTGEeyDo930VO3FEw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_UQvGgYTGEeyDo930VO3FEw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UQvGgoTGEeyDo930VO3FEw" x="88" width="30" height="30"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_UO5TcoTGEeyDo930VO3FEw"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ULsOcITGEeyDo930VO3FEw" name="A10" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Seat" href="MyBus.bts#//@seat.0"/>
+      <semanticElements xmi:type="bts:Seat" href="MyBus.bts#//@seat.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_UM9ZwITGEeyDo930VO3FEw" labelSize="12" labelPosition="node">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']/@defaultLayer/@nodeMappings[name='SeatNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']/@defaultLayer/@nodeMappings[name='SeatNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_UNSw8ITGEeyDo930VO3FEw" name="E28" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Seat" href="MyBus.bts#//@seat.1"/>
+      <semanticElements xmi:type="bts:Seat" href="MyBus.bts#//@seat.1"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_UNSw8YTGEeyDo930VO3FEw" labelSize="12" labelPosition="node">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']/@defaultLayer/@nodeMappings[name='SeatNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']/@defaultLayer/@nodeMappings[name='SeatNode']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_UJeA4ITGEeyDo930VO3FEw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsdiagram']/@defaultLayer"/>
+    <target xmi:type="bts:Bus" href="MyBus.bts#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_XhpBIITHEeyDo930VO3FEw" name="new btsbus">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Xhq2VITHEeyDo930VO3FEw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_Xhq2VYTHEeyDo930VO3FEw"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XhsEcITHEeyDo930VO3FEw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_XhsEcYTHEeyDo930VO3FEw" type="Sirius" element="_XhpBIITHEeyDo930VO3FEw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_XhsrgITHEeyDo930VO3FEw" type="2001" element="_XhqPQITHEeyDo930VO3FEw">
+          <children xmi:type="notation:Node" xmi:id="_Xhsrg4THEeyDo930VO3FEw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XhsrhITHEeyDo930VO3FEw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Xht5ooTHEeyDo930VO3FEw" type="3003" element="_XhqPQYTHEeyDo930VO3FEw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Xht5o4THEeyDo930VO3FEw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xht5pITHEeyDo930VO3FEw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XhsrgYTHEeyDo930VO3FEw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XhsrgoTHEeyDo930VO3FEw" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_XhtSkITHEeyDo930VO3FEw" type="2001" element="_Xhq2UYTHEeyDo930VO3FEw">
+          <children xmi:type="notation:Node" xmi:id="_Xht5oITHEeyDo930VO3FEw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Xht5oYTHEeyDo930VO3FEw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XhugsITHEeyDo930VO3FEw" type="3003" element="_Xhq2UoTHEeyDo930VO3FEw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XhugsYTHEeyDo930VO3FEw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XhugsoTHEeyDo930VO3FEw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XhtSkYTHEeyDo930VO3FEw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XhtSkoTHEeyDo930VO3FEw" x="88" width="30" height="30"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_XhsEcoTHEeyDo930VO3FEw"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_XhqPQITHEeyDo930VO3FEw" name="A10" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Seat" href="MyBus.bts#//@seat.0"/>
+      <semanticElements xmi:type="bts:Seat" href="MyBus.bts#//@seat.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_XhqPQYTHEeyDo930VO3FEw" labelSize="12" labelPosition="node">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsbus']/@defaultLayer/@nodeMappings[name='SeatNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsbus']/@defaultLayer/@nodeMappings[name='SeatNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Xhq2UYTHEeyDo930VO3FEw" name="E28" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Seat" href="MyBus.bts#//@seat.1"/>
+      <semanticElements xmi:type="bts:Seat" href="MyBus.bts#//@seat.1"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_Xhq2UoTHEeyDo930VO3FEw" labelSize="12" labelPosition="node">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsbus']/@defaultLayer/@nodeMappings[name='SeatNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsbus']/@defaultLayer/@nodeMappings[name='SeatNode']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsbus']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_XhpBIYTHEeyDo930VO3FEw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='btsbus']/@defaultLayer"/>
+    <target xmi:type="bts:Bus" href="MyBus.bts#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_OVE9MIczEeyHYcQ4FWRhlQ" name="new BTSDiagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_OVkFZ4czEeyHYcQ4FWRhlQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_OVkscIczEeyHYcQ4FWRhlQ"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_OWYkwIczEeyHYcQ4FWRhlQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_OWYkwYczEeyHYcQ4FWRhlQ" type="Sirius" element="_OVE9MIczEeyHYcQ4FWRhlQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_OWddQIczEeyHYcQ4FWRhlQ" type="2001" element="_OVLD0IczEeyHYcQ4FWRhlQ">
+          <children xmi:type="notation:Node" xmi:id="_OWqRkIczEeyHYcQ4FWRhlQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OWqRkYczEeyHYcQ4FWRhlQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OXq-MIczEeyHYcQ4FWRhlQ" type="3003" element="_OVOuMIczEeyHYcQ4FWRhlQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_OXq-MYczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OXq-MoczEeyHYcQ4FWRhlQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_OWddQYczEeyHYcQ4FWRhlQ" fontColor="7490599" fontName=".AppleSystemUIFont" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OWddQoczEeyHYcQ4FWRhlQ" x="180" y="260" width="65" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_OW4UAIczEeyHYcQ4FWRhlQ" type="2001" element="_OVQjYIczEeyHYcQ4FWRhlQ">
+          <children xmi:type="notation:Node" xmi:id="_OW47EIczEeyHYcQ4FWRhlQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OW47EYczEeyHYcQ4FWRhlQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OXuBgIczEeyHYcQ4FWRhlQ" type="3003" element="_OVRKcIczEeyHYcQ4FWRhlQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_OXuBgYczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OXuBgoczEeyHYcQ4FWRhlQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_OW4UAYczEeyHYcQ4FWRhlQ" fontColor="7490599" fontName=".AppleSystemUIFont" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OW4UAoczEeyHYcQ4FWRhlQ" x="408" y="260" width="85" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_OW6JMIczEeyHYcQ4FWRhlQ" type="2001" element="_OVRxgIczEeyHYcQ4FWRhlQ">
+          <children xmi:type="notation:Node" xmi:id="_OW6wQIczEeyHYcQ4FWRhlQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OW6wQYczEeyHYcQ4FWRhlQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OXv2sIczEeyHYcQ4FWRhlQ" type="3016" element="_OVRxgYczEeyHYcQ4FWRhlQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_OXv2sYczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OXv2soczEeyHYcQ4FWRhlQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_OW6JMYczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OW6JMoczEeyHYcQ4FWRhlQ" x="200" y="105" width="81" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_OW7XUIczEeyHYcQ4FWRhlQ" type="2001" element="_OVS_oYczEeyHYcQ4FWRhlQ">
+          <children xmi:type="notation:Node" xmi:id="_OW7XU4czEeyHYcQ4FWRhlQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OW7XVIczEeyHYcQ4FWRhlQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OXv2s4czEeyHYcQ4FWRhlQ" type="3016" element="_OVS_ooczEeyHYcQ4FWRhlQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_OXv2tIczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OXv2tYczEeyHYcQ4FWRhlQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_OW7XUYczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OW7XUoczEeyHYcQ4FWRhlQ" x="324" y="192" width="105" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_OW7-YIczEeyHYcQ4FWRhlQ" type="2001" element="_OVTmsIczEeyHYcQ4FWRhlQ">
+          <children xmi:type="notation:Node" xmi:id="_OW8lcIczEeyHYcQ4FWRhlQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OW8lcYczEeyHYcQ4FWRhlQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OXyS8IczEeyHYcQ4FWRhlQ" type="3002" element="_OVTmsYczEeyHYcQ4FWRhlQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_OXyS8YczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OXyS8oczEeyHYcQ4FWRhlQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_OW7-YYczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OW7-YoczEeyHYcQ4FWRhlQ" x="128" y="111" width="57" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_OXCFAIczEeyHYcQ4FWRhlQ" type="2001" element="_OVVb4IczEeyHYcQ4FWRhlQ">
+          <children xmi:type="notation:Node" xmi:id="_OXCsEIczEeyHYcQ4FWRhlQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OXCsEYczEeyHYcQ4FWRhlQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OXy6AIczEeyHYcQ4FWRhlQ" type="3002" element="_OVWC8IczEeyHYcQ4FWRhlQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_OXy6AYczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OXy6AoczEeyHYcQ4FWRhlQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_OXCFAYczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OXCFAoczEeyHYcQ4FWRhlQ" x="428" y="148" width="65" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_OXCsEoczEeyHYcQ4FWRhlQ" type="2001" element="_OVZGQIczEeyHYcQ4FWRhlQ">
+          <children xmi:type="notation:Node" xmi:id="_OXDTIIczEeyHYcQ4FWRhlQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OXDTIYczEeyHYcQ4FWRhlQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OXzhEIczEeyHYcQ4FWRhlQ" type="3002" element="_OVZGQYczEeyHYcQ4FWRhlQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_OXzhEYczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OXzhEoczEeyHYcQ4FWRhlQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_OXCsE4czEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OXCsFIczEeyHYcQ4FWRhlQ" x="176" y="332" width="74" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_OXILoIczEeyHYcQ4FWRhlQ" type="2001" element="_OVZGQ4czEeyHYcQ4FWRhlQ">
+          <children xmi:type="notation:Node" xmi:id="_OXJZwIczEeyHYcQ4FWRhlQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OXJZwYczEeyHYcQ4FWRhlQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OX0IIIczEeyHYcQ4FWRhlQ" type="3002" element="_OVZGRIczEeyHYcQ4FWRhlQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_OX0IIYczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OX0IIoczEeyHYcQ4FWRhlQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_OXILoYczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OXILooczEeyHYcQ4FWRhlQ" x="416" y="331" width="53" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_OXJZwoczEeyHYcQ4FWRhlQ" type="2001" element="_OVZtUIczEeyHYcQ4FWRhlQ">
+          <children xmi:type="notation:Node" xmi:id="_OXKA0IczEeyHYcQ4FWRhlQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OXKA0YczEeyHYcQ4FWRhlQ" x="31" y="14"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OX1WQIczEeyHYcQ4FWRhlQ" type="3017" element="_OVZtUYczEeyHYcQ4FWRhlQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_OX1WQYczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OX1WQoczEeyHYcQ4FWRhlQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_OXJZw4czEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OXJZxIczEeyHYcQ4FWRhlQ" x="318" y="331" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_OXn64IczEeyHYcQ4FWRhlQ" type="2001" element="_OVaUYIczEeyHYcQ4FWRhlQ">
+          <children xmi:type="notation:Node" xmi:id="_OXoh8IczEeyHYcQ4FWRhlQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OXoh8YczEeyHYcQ4FWRhlQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OX95IIczEeyHYcQ4FWRhlQ" type="3004" element="_OVaUYYczEeyHYcQ4FWRhlQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_OX95IYczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OX95IoczEeyHYcQ4FWRhlQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_OXn64YczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OXn64oczEeyHYcQ4FWRhlQ" x="29" y="172" width="65" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_OXpJAIczEeyHYcQ4FWRhlQ" type="2001" element="_OVaUY4czEeyHYcQ4FWRhlQ">
+          <children xmi:type="notation:Node" xmi:id="_OXpwEIczEeyHYcQ4FWRhlQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_OXpwEYczEeyHYcQ4FWRhlQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OX95I4czEeyHYcQ4FWRhlQ" type="3004" element="_OVaUZIczEeyHYcQ4FWRhlQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_OX95JIczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OX95JYczEeyHYcQ4FWRhlQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_OXpJAYczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OXpJAoczEeyHYcQ4FWRhlQ" x="516" y="201" width="73" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_by4mIIczEeyHYcQ4FWRhlQ" type="2001" element="_bye9hIczEeyHYcQ4FWRhlQ">
+          <children xmi:type="notation:Node" xmi:id="_by5NMIczEeyHYcQ4FWRhlQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_by5NMYczEeyHYcQ4FWRhlQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_by8QgIczEeyHYcQ4FWRhlQ" type="3017" element="_byfkkIczEeyHYcQ4FWRhlQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_by8QgYczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_by8QgoczEeyHYcQ4FWRhlQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_by4mIYczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_by4mIoczEeyHYcQ4FWRhlQ" x="304" y="130" width="58" height="41"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_by5NMoczEeyHYcQ4FWRhlQ" type="2001" element="_bygLoIczEeyHYcQ4FWRhlQ">
+          <children xmi:type="notation:Node" xmi:id="_by50QIczEeyHYcQ4FWRhlQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_by50QYczEeyHYcQ4FWRhlQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_by83kIczEeyHYcQ4FWRhlQ" type="3017" element="_bygLoYczEeyHYcQ4FWRhlQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_by83kYczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_by83koczEeyHYcQ4FWRhlQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_by5NM4czEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_by5NNIczEeyHYcQ4FWRhlQ" x="492" y="124" width="69" height="30"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_OWYkwoczEeyHYcQ4FWRhlQ"/>
+        <edges xmi:type="notation:Edge" xmi:id="_OYD_wIczEeyHYcQ4FWRhlQ" type="4001" element="_OVgbAIczEeyHYcQ4FWRhlQ" source="_OWddQIczEeyHYcQ4FWRhlQ" target="_OW6JMIczEeyHYcQ4FWRhlQ">
+          <children xmi:type="notation:Node" xmi:id="_OYHDEIczEeyHYcQ4FWRhlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OYHDEYczEeyHYcQ4FWRhlQ" x="5" y="-12"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OYIRMIczEeyHYcQ4FWRhlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OYIRMYczEeyHYcQ4FWRhlQ" x="-1" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OYI4QIczEeyHYcQ4FWRhlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OYI4QYczEeyHYcQ4FWRhlQ" x="-3" y="4"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_OYD_wYczEeyHYcQ4FWRhlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_OYD_woczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OYD_w4czEeyHYcQ4FWRhlQ" points="[0, 0, -60, 125]$[60, -125, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OYXhwIczEeyHYcQ4FWRhlQ" id="(0.23076923076923078,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OYYv4IczEeyHYcQ4FWRhlQ" id="(0.6790123456790124,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_OYYv4YczEeyHYcQ4FWRhlQ" type="4001" element="_OViQMIczEeyHYcQ4FWRhlQ" source="_OW4UAIczEeyHYcQ4FWRhlQ" target="_OW7XUIczEeyHYcQ4FWRhlQ">
+          <children xmi:type="notation:Node" xmi:id="_OYZW8IczEeyHYcQ4FWRhlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OYZW8YczEeyHYcQ4FWRhlQ" x="18" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OYZW8oczEeyHYcQ4FWRhlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OYZW84czEeyHYcQ4FWRhlQ" x="-3" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OYZW9IczEeyHYcQ4FWRhlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OYZW9YczEeyHYcQ4FWRhlQ" x="-10" y="3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_OYYv4oczEeyHYcQ4FWRhlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_OYYv44czEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OYYv5IczEeyHYcQ4FWRhlQ" points="[0, 0, 68, 38]$[-68, -38, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OYZ-AIczEeyHYcQ4FWRhlQ" id="(0.17647058823529413,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OYZ-AYczEeyHYcQ4FWRhlQ" id="(0.29523809523809524,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_OYZ-AoczEeyHYcQ4FWRhlQ" type="4001" element="_OVi3QIczEeyHYcQ4FWRhlQ" source="_OWddQIczEeyHYcQ4FWRhlQ" target="_OW7-YIczEeyHYcQ4FWRhlQ">
+          <children xmi:type="notation:Node" xmi:id="_OYZ-BoczEeyHYcQ4FWRhlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OYZ-B4czEeyHYcQ4FWRhlQ" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OYalEIczEeyHYcQ4FWRhlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OYalEYczEeyHYcQ4FWRhlQ" x="6" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OYalEoczEeyHYcQ4FWRhlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OYalE4czEeyHYcQ4FWRhlQ" x="8" y="4"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_OYZ-A4czEeyHYcQ4FWRhlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_OYZ-BIczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OYZ-BYczEeyHYcQ4FWRhlQ" points="[0, 0, 25, 119]$[-25, -119, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OYbzMIczEeyHYcQ4FWRhlQ" id="(0.23076923076923078,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OYbzMYczEeyHYcQ4FWRhlQ" id="(0.7368421052631579,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_OYbzMoczEeyHYcQ4FWRhlQ" type="4001" element="_OVjeUIczEeyHYcQ4FWRhlQ" source="_OW4UAIczEeyHYcQ4FWRhlQ" target="_OXCFAIczEeyHYcQ4FWRhlQ">
+          <children xmi:type="notation:Node" xmi:id="_OYbzNoczEeyHYcQ4FWRhlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OYbzN4czEeyHYcQ4FWRhlQ" x="18" y="-5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OYbzOIczEeyHYcQ4FWRhlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OYbzOYczEeyHYcQ4FWRhlQ" x="-10" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OYcaQIczEeyHYcQ4FWRhlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OYcaQYczEeyHYcQ4FWRhlQ" x="-10" y="-2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_OYbzM4czEeyHYcQ4FWRhlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_OYbzNIczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OYbzNYczEeyHYcQ4FWRhlQ" points="[0, 0, -20, 82]$[20, -82, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OYcaQoczEeyHYcQ4FWRhlQ" id="(0.17647058823529413,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OYcaQ4czEeyHYcQ4FWRhlQ" id="(0.23076923076923078,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_OYcaRIczEeyHYcQ4FWRhlQ" type="4001" element="_OVjeVYczEeyHYcQ4FWRhlQ" source="_OXCsEoczEeyHYcQ4FWRhlQ" target="_OWddQIczEeyHYcQ4FWRhlQ">
+          <children xmi:type="notation:Node" xmi:id="_OYdBUIczEeyHYcQ4FWRhlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OYdBUYczEeyHYcQ4FWRhlQ" x="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OYdBUoczEeyHYcQ4FWRhlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OYdBU4czEeyHYcQ4FWRhlQ" x="1" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OYdBVIczEeyHYcQ4FWRhlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OYdBVYczEeyHYcQ4FWRhlQ" x="-3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_OYcaRYczEeyHYcQ4FWRhlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_OYcaRoczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OYcaR4czEeyHYcQ4FWRhlQ" points="[0, 0, -4, 42]$[4, -42, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OYdoYIczEeyHYcQ4FWRhlQ" id="(0.20270270270270271,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OYdoYYczEeyHYcQ4FWRhlQ" id="(0.23076923076923078,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_OYdoYoczEeyHYcQ4FWRhlQ" type="4001" element="_OVkFYoczEeyHYcQ4FWRhlQ" source="_OXILoIczEeyHYcQ4FWRhlQ" target="_OW4UAIczEeyHYcQ4FWRhlQ">
+          <children xmi:type="notation:Node" xmi:id="_OYePcIczEeyHYcQ4FWRhlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OYePcYczEeyHYcQ4FWRhlQ" x="16" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OYe2gIczEeyHYcQ4FWRhlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OYe2gYczEeyHYcQ4FWRhlQ" x="27" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OYgEoIczEeyHYcQ4FWRhlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OYgEoYczEeyHYcQ4FWRhlQ" x="6" y="1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_OYdoY4czEeyHYcQ4FWRhlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_OYdoZIczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OYdoZYczEeyHYcQ4FWRhlQ" points="[0, 0, 8, 41]$[-8, -41, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OYgrsIczEeyHYcQ4FWRhlQ" id="(0.2830188679245283,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OYgrsYczEeyHYcQ4FWRhlQ" id="(0.17647058823529413,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_by9eoIczEeyHYcQ4FWRhlQ" type="4001" element="_byin5IczEeyHYcQ4FWRhlQ" source="_OWddQIczEeyHYcQ4FWRhlQ" target="_by4mIIczEeyHYcQ4FWRhlQ">
+          <children xmi:type="notation:Node" xmi:id="_by9epIczEeyHYcQ4FWRhlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_by9epYczEeyHYcQ4FWRhlQ" x="-14" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_by9epoczEeyHYcQ4FWRhlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_by9ep4czEeyHYcQ4FWRhlQ" x="18" y="-4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_by-FsIczEeyHYcQ4FWRhlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_by-FsYczEeyHYcQ4FWRhlQ" x="-8" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_by9eoYczEeyHYcQ4FWRhlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_by9eooczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_by9eo4czEeyHYcQ4FWRhlQ" points="[17, -15, -118, 104]$[117, -104, -18, 15]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_by-FsoczEeyHYcQ4FWRhlQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_by-swIczEeyHYcQ4FWRhlQ" id="(0.7413793103448276,0.6341463414634146)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_by-swYczEeyHYcQ4FWRhlQ" type="4001" element="_byjO9IczEeyHYcQ4FWRhlQ" source="_OW4UAIczEeyHYcQ4FWRhlQ" target="_by5NMoczEeyHYcQ4FWRhlQ">
+          <children xmi:type="notation:Node" xmi:id="_by-sxYczEeyHYcQ4FWRhlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_by-sxoczEeyHYcQ4FWRhlQ" x="-4" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_by_T0IczEeyHYcQ4FWRhlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_by_T0YczEeyHYcQ4FWRhlQ" x="22" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_by_T0oczEeyHYcQ4FWRhlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_by_T04czEeyHYcQ4FWRhlQ" x="-11" y="3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_by-swoczEeyHYcQ4FWRhlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_by-sw4czEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_by-sxIczEeyHYcQ4FWRhlQ" points="[6, -15, -51, 121]$[50, -121, -7, 15]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_by_64IczEeyHYcQ4FWRhlQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_by_64YczEeyHYcQ4FWRhlQ" id="(0.21739130434782608,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_2ecCwIczEeyHYcQ4FWRhlQ" type="4001" element="_2c38gIczEeyHYcQ4FWRhlQ" source="_OWddQIczEeyHYcQ4FWRhlQ" target="_OXn64IczEeyHYcQ4FWRhlQ">
+          <children xmi:type="notation:Node" xmi:id="_2ecp0IczEeyHYcQ4FWRhlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2ecp0YczEeyHYcQ4FWRhlQ" x="-2" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2ecp0oczEeyHYcQ4FWRhlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2ecp04czEeyHYcQ4FWRhlQ" x="7" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2ecp1IczEeyHYcQ4FWRhlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2ecp1YczEeyHYcQ4FWRhlQ" x="4" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_2ecCwYczEeyHYcQ4FWRhlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_2ecCwoczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2ecCw4czEeyHYcQ4FWRhlQ" points="[-25, -15, 125, 76]$[-121, -73, 29, 18]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2edQ4IczEeyHYcQ4FWRhlQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2edQ4YczEeyHYcQ4FWRhlQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_2edQ4oczEeyHYcQ4FWRhlQ" type="4001" element="_2c5xsIczEeyHYcQ4FWRhlQ" source="_OW4UAIczEeyHYcQ4FWRhlQ" target="_OXpJAIczEeyHYcQ4FWRhlQ">
+          <children xmi:type="notation:Node" xmi:id="_2edQ5oczEeyHYcQ4FWRhlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2edQ54czEeyHYcQ4FWRhlQ" x="2" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2ed38IczEeyHYcQ4FWRhlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2ed38YczEeyHYcQ4FWRhlQ" x="-8" y="-5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2ed38oczEeyHYcQ4FWRhlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2ed384czEeyHYcQ4FWRhlQ" x="-14" y="-3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_2edQ44czEeyHYcQ4FWRhlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_2edQ5IczEeyHYcQ4FWRhlQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2edQ5YczEeyHYcQ4FWRhlQ" points="[23, -15, -75, 47]$[69, -44, -29, 18]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2ed39IczEeyHYcQ4FWRhlQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2ed39YczEeyHYcQ4FWRhlQ" id="(0.3904109589041096,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_OVLD0IczEeyHYcQ4FWRhlQ" name="R0001" outgoingEdges="_OVgbAIczEeyHYcQ4FWRhlQ _OVi3QIczEeyHYcQ4FWRhlQ _byin5IczEeyHYcQ4FWRhlQ _2c38gIczEeyHYcQ4FWRhlQ" incomingEdges="_OVjeVYczEeyHYcQ4FWRhlQ" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Booking" href="MyBus.bts#//@seat.0/@booking"/>
+      <semanticElements xmi:type="bts:Booking" href="MyBus.bts#//@seat.0/@booking"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_OVOuMIczEeyHYcQ4FWRhlQ" labelSize="12" labelColor="39,76,114" labelPosition="node" color="252,175,62">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:SquareDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='BookingNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='BookingNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_OVQjYIczEeyHYcQ4FWRhlQ" name="R0006" outgoingEdges="_OViQMIczEeyHYcQ4FWRhlQ _OVjeUIczEeyHYcQ4FWRhlQ _byjO9IczEeyHYcQ4FWRhlQ _2c5xsIczEeyHYcQ4FWRhlQ" incomingEdges="_OVkFYoczEeyHYcQ4FWRhlQ" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Booking" href="MyBus.bts#//@seat.1/@booking"/>
+      <semanticElements xmi:type="bts:Booking" href="MyBus.bts#//@seat.1/@booking"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_OVRKcIczEeyHYcQ4FWRhlQ" labelSize="12" labelColor="39,76,114" labelPosition="node" color="252,175,62">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:SquareDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='BookingNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='BookingNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_OVRxgIczEeyHYcQ4FWRhlQ" name="debit_card" incomingEdges="_OVgbAIczEeyHYcQ4FWRhlQ" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Payment" href="MyBus.bts#//@seat.0/@booking/@payment.0"/>
+      <semanticElements xmi:type="bts:Payment" href="MyBus.bts#//@seat.0/@booking/@payment.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_OVRxgYczEeyHYcQ4FWRhlQ" labelSize="12" labelPosition="node" color="173,127,168">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='PaymentNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='PaymentNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_OVS_oYczEeyHYcQ4FWRhlQ" name="bank_transfer" incomingEdges="_OViQMIczEeyHYcQ4FWRhlQ" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Payment" href="MyBus.bts#//@seat.1/@booking/@payment.0"/>
+      <semanticElements xmi:type="bts:Payment" href="MyBus.bts#//@seat.1/@booking/@payment.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_OVS_ooczEeyHYcQ4FWRhlQ" labelSize="12" labelPosition="node" color="173,127,168">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='PaymentNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='PaymentNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_OVTmsIczEeyHYcQ4FWRhlQ" name="ITY" incomingEdges="_OVi3QIczEeyHYcQ4FWRhlQ" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Baggage" href="MyBus.bts#//@seat.0/@booking/@baggage.0"/>
+      <semanticElements xmi:type="bts:Baggage" href="MyBus.bts#//@seat.0/@booking/@baggage.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Dot" uid="_OVTmsYczEeyHYcQ4FWRhlQ" labelSize="12" labelPosition="node" backgroundColor="252,233,79">
+        <description xmi:type="style:DotDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='BaggageNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='BaggageNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_OVVb4IczEeyHYcQ4FWRhlQ" name="ITY" incomingEdges="_OVjeUIczEeyHYcQ4FWRhlQ" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Baggage" href="MyBus.bts#//@seat.1/@booking/@baggage.0"/>
+      <semanticElements xmi:type="bts:Baggage" href="MyBus.bts#//@seat.1/@booking/@baggage.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Dot" uid="_OVWC8IczEeyHYcQ4FWRhlQ" labelSize="12" labelPosition="node" backgroundColor="252,233,79">
+        <description xmi:type="style:DotDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='BaggageNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='BaggageNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_OVZGQIczEeyHYcQ4FWRhlQ" name="A10" outgoingEdges="_OVjeVYczEeyHYcQ4FWRhlQ" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Seat" href="MyBus.bts#//@seat.0"/>
+      <semanticElements xmi:type="bts:Seat" href="MyBus.bts#//@seat.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Dot" uid="_OVZGQYczEeyHYcQ4FWRhlQ" labelSize="12" labelPosition="node" backgroundColor="246,139,139">
+        <description xmi:type="style:DotDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='SeatNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='SeatNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_OVZGQ4czEeyHYcQ4FWRhlQ" name="E18" outgoingEdges="_OVkFYoczEeyHYcQ4FWRhlQ" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Seat" href="MyBus.bts#//@seat.1"/>
+      <semanticElements xmi:type="bts:Seat" href="MyBus.bts#//@seat.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Dot" uid="_OVZGRIczEeyHYcQ4FWRhlQ" labelSize="12" labelPosition="node" backgroundColor="246,139,139">
+        <description xmi:type="style:DotDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='SeatNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='SeatNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_OVZtUIczEeyHYcQ4FWRhlQ" name="ROME" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:City" href="MyBus.bts#//@city.0"/>
+      <semanticElements xmi:type="bts:City" href="MyBus.bts#//@city.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Lozenge" uid="_OVZtUYczEeyHYcQ4FWRhlQ" labelSize="12" color="239,41,41">
+        <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='CityNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='CityNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_OVaUYIczEeyHYcQ4FWRhlQ" name="John" incomingEdges="_2c38gIczEeyHYcQ4FWRhlQ" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Passenger" href="MyBus.bts#//@seat.0/@booking/@passenger.0"/>
+      <semanticElements xmi:type="bts:Passenger" href="MyBus.bts#//@seat.0/@booking/@passenger.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_OVaUYYczEeyHYcQ4FWRhlQ" labelSize="12" borderColor="194,239,255" labelPosition="node" color="194,239,255">
+        <description xmi:type="style:BundledImageDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='PassengerNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='PassengerNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_OVaUY4czEeyHYcQ4FWRhlQ" name="Jane" incomingEdges="_2c5xsIczEeyHYcQ4FWRhlQ" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Passenger" href="MyBus.bts#//@seat.1/@booking/@passenger.0"/>
+      <semanticElements xmi:type="bts:Passenger" href="MyBus.bts#//@seat.1/@booking/@passenger.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_OVaUZIczEeyHYcQ4FWRhlQ" labelSize="12" borderColor="194,239,255" labelPosition="node" color="194,239,255">
+        <description xmi:type="style:BundledImageDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='PassengerNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='PassengerNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_OVgbAIczEeyHYcQ4FWRhlQ" sourceNode="_OVLD0IczEeyHYcQ4FWRhlQ" targetNode="_OVRxgIczEeyHYcQ4FWRhlQ">
+      <target xmi:type="bts:Booking" href="MyBus.bts#//@seat.0/@booking"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_OVhCEIczEeyHYcQ4FWRhlQ" lineStyle="dash" size="2" strokeColor="39,76,114">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@edgeMappings[name='PaymentEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_OVhCEYczEeyHYcQ4FWRhlQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@edgeMappings[name='PaymentEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_OViQMIczEeyHYcQ4FWRhlQ" sourceNode="_OVQjYIczEeyHYcQ4FWRhlQ" targetNode="_OVS_oYczEeyHYcQ4FWRhlQ">
+      <target xmi:type="bts:Booking" href="MyBus.bts#//@seat.1/@booking"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_OViQMYczEeyHYcQ4FWRhlQ" lineStyle="dash" size="2" strokeColor="39,76,114">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@edgeMappings[name='PaymentEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_OViQMoczEeyHYcQ4FWRhlQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@edgeMappings[name='PaymentEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_OVi3QIczEeyHYcQ4FWRhlQ" sourceNode="_OVLD0IczEeyHYcQ4FWRhlQ" targetNode="_OVTmsIczEeyHYcQ4FWRhlQ">
+      <target xmi:type="bts:Booking" href="MyBus.bts#//@seat.0/@booking"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_OVi3QYczEeyHYcQ4FWRhlQ" lineStyle="dash" size="2" strokeColor="39,76,114">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@edgeMappings[name='BaggageEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_OVi3QoczEeyHYcQ4FWRhlQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@edgeMappings[name='BaggageEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_OVjeUIczEeyHYcQ4FWRhlQ" sourceNode="_OVQjYIczEeyHYcQ4FWRhlQ" targetNode="_OVVb4IczEeyHYcQ4FWRhlQ">
+      <target xmi:type="bts:Booking" href="MyBus.bts#//@seat.1/@booking"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_OVjeUYczEeyHYcQ4FWRhlQ" lineStyle="dash" size="2" strokeColor="39,76,114">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@edgeMappings[name='BaggageEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_OVjeUoczEeyHYcQ4FWRhlQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@edgeMappings[name='BaggageEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_OVjeVYczEeyHYcQ4FWRhlQ" sourceNode="_OVZGQIczEeyHYcQ4FWRhlQ" targetNode="_OVLD0IczEeyHYcQ4FWRhlQ">
+      <target xmi:type="bts:Seat" href="MyBus.bts#//@seat.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_OVjeVoczEeyHYcQ4FWRhlQ" size="2" strokeColor="156,12,12">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@edgeMappings[name='SeatEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_OVjeV4czEeyHYcQ4FWRhlQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@edgeMappings[name='SeatEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_OVkFYoczEeyHYcQ4FWRhlQ" sourceNode="_OVZGQ4czEeyHYcQ4FWRhlQ" targetNode="_OVQjYIczEeyHYcQ4FWRhlQ">
+      <target xmi:type="bts:Seat" href="MyBus.bts#//@seat.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_OVkFY4czEeyHYcQ4FWRhlQ" size="2" strokeColor="156,12,12">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@edgeMappings[name='SeatEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_OVkFZIczEeyHYcQ4FWRhlQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@edgeMappings[name='SeatEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_bye9hIczEeyHYcQ4FWRhlQ" name="T1899" incomingEdges="_byin5IczEeyHYcQ4FWRhlQ" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Ticket" href="MyBus.bts#//@seat.0/@booking/@ticket"/>
+      <semanticElements xmi:type="bts:Ticket" href="MyBus.bts#//@seat.0/@booking/@ticket"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Lozenge" uid="_byfkkIczEeyHYcQ4FWRhlQ" labelSize="12" labelPosition="node" color="138,226,52">
+        <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='TicketNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='TicketNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_bygLoIczEeyHYcQ4FWRhlQ" name="T2855" incomingEdges="_byjO9IczEeyHYcQ4FWRhlQ" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="bts:Ticket" href="MyBus.bts#//@seat.1/@booking/@ticket"/>
+      <semanticElements xmi:type="bts:Ticket" href="MyBus.bts#//@seat.1/@booking/@ticket"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Lozenge" uid="_bygLoYczEeyHYcQ4FWRhlQ" labelSize="12" labelPosition="node" color="138,226,52">
+        <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='TicketNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='TicketNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_byin5IczEeyHYcQ4FWRhlQ" sourceNode="_OVLD0IczEeyHYcQ4FWRhlQ" targetNode="_bye9hIczEeyHYcQ4FWRhlQ">
+      <target xmi:type="bts:Booking" href="MyBus.bts#//@seat.0/@booking"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_byjO8IczEeyHYcQ4FWRhlQ" lineStyle="dash" size="2" strokeColor="39,76,114">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@edgeMappings[name='BookingEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_byjO8YczEeyHYcQ4FWRhlQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@edgeMappings[name='BookingEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_byjO9IczEeyHYcQ4FWRhlQ" sourceNode="_OVQjYIczEeyHYcQ4FWRhlQ" targetNode="_bygLoIczEeyHYcQ4FWRhlQ">
+      <target xmi:type="bts:Booking" href="MyBus.bts#//@seat.1/@booking"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_byjO9YczEeyHYcQ4FWRhlQ" lineStyle="dash" size="2" strokeColor="39,76,114">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@edgeMappings[name='BookingEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_byjO9oczEeyHYcQ4FWRhlQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@edgeMappings[name='BookingEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_2c38gIczEeyHYcQ4FWRhlQ" sourceNode="_OVLD0IczEeyHYcQ4FWRhlQ" targetNode="_OVaUYIczEeyHYcQ4FWRhlQ">
+      <target xmi:type="bts:Booking" href="MyBus.bts#//@seat.0/@booking"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_2c38gYczEeyHYcQ4FWRhlQ" lineStyle="dash" size="2" strokeColor="39,76,114">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@edgeMappings[name='PassengerEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_2c38goczEeyHYcQ4FWRhlQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@edgeMappings[name='PassengerEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_2c5xsIczEeyHYcQ4FWRhlQ" sourceNode="_OVQjYIczEeyHYcQ4FWRhlQ" targetNode="_OVaUY4czEeyHYcQ4FWRhlQ">
+      <target xmi:type="bts:Booking" href="MyBus.bts#//@seat.1/@booking"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_2c6YwIczEeyHYcQ4FWRhlQ" lineStyle="dash" size="2" strokeColor="39,76,114">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@edgeMappings[name='PassengerEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_2c6YwYczEeyHYcQ4FWRhlQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@edgeMappings[name='PassengerEdge']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_OVGyYIczEeyHYcQ4FWRhlQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/live.bts.design/description/bts.odesign#//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer"/>
+    <target xmi:type="bts:Bus" href="MyBus.bts#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

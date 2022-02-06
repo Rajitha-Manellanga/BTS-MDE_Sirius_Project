@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="bts" version="12.0.0.2017041100">
+  <ownedViewpoints name="BTSViewpoint" modelFileExtension="bts">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="BTSDiagram" domainClass="bts::Bus" enablePopupBars="true">
+      <metamodel href="file:/Users/Rajitha/Documents/SE4GD/MDE/2019_HW/bts/model/bts.ecore#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="BookingNode" domainClass="bts::Booking">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="feature:booking_id" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='orange']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="TicketNode" domainClass="bts::Ticket">
+          <style xsi:type="style:LozengeNodeDescription" labelSize="12" labelExpression="feature:ticket_id" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="PaymentNode" domainClass="bts::Payment">
+          <style xsi:type="style:EllipseNodeDescription" labelSize="12" labelExpression="feature:type" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='purple']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="BaggageNode" domainClass="bts::Baggage">
+          <style xsi:type="style:DotDescription" labelSize="12" labelExpression="feature:baggage_tag" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="SeatNode" domainClass="bts::Seat  ">
+          <style xsi:type="style:DotDescription" labelSize="12" labelExpression="feature:seat_id" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="CityNode" domainClass="bts::City">
+          <style xsi:type="style:LozengeNodeDescription" labelSize="12" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="PassengerNode" domainClass="bts::Passenger">
+          <style xsi:type="style:BundledImageDescription" labelSize="12" labelExpression="feature:fisrt_name" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="BookingEdge" sourceMapping="//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='BookingNode']" targetMapping="//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='TicketNode']" targetFinderExpression="feature:ticket">
+          <style lineStyle="dash" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="PaymentEdge" sourceMapping="//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='BookingNode']" targetMapping="//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='PaymentNode']" targetFinderExpression="feature:payment">
+          <style lineStyle="dash" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="BaggageEdge" sourceMapping="//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='BookingNode']" targetMapping="//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='BaggageNode']" targetFinderExpression="feature:baggage">
+          <style lineStyle="dash" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="SeatEdge" sourceMapping="//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='SeatNode']" targetMapping="//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='BookingNode']" targetFinderExpression="feature:booking">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_red']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="PassengerEdge" sourceMapping="//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='BookingNode']" targetMapping="//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='PassengerNode']" targetFinderExpression="feature:passenger">
+          <style lineStyle="dash" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateBooking" label="Booking" nodeMappings="//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='BookingNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="bts::Booking" referenceName="booking"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:SelectionWizardDescription">
+            <element name="element"/>
+            <containerView name="containerView"/>
+            <container name="container"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="booking" valueExpression="()"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Seat" nodeMappings="//@ownedViewpoints[name='BTSViewpoint']/@ownedRepresentations[name='BTSDiagram']/@defaultLayer/@nodeMappings[name='SeatNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="live.bts.design.Services"/>
+  </ownedViewpoints>
+</description:Group>
