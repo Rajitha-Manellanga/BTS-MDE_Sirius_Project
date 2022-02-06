@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bts:Bus xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:bts="http://www.example.org/bts">
+  <city name="ROME"/>
+  <seat seat_id="A10">
+    <booking booking_id="R0001" allowedBags="2">
+      <ticket ticket_id="T1899" booking_id="R0001"/>
+      <payment booking_id="R0001" payment_id="PY1634"/>
+      <baggage baggage_tag="ITY" baggage_id="ITY2345" seat_id="A10" booking="//@seat.0/@booking"/>
+      <passenger passenger_id="N0001" fisrt_name="John" last_name="Doe" email="jd@gmail.com" phone="889"/>
+    </booking>
+  </seat>
+  <seat seat_id="E18">
+    <booking booking_id="R0006" allowedBags="2">
+      <ticket ticket_id="T2855"/>
+      <payment type="bank_transfer" booking_id="R0001" payment_id="PY9018"/>
+      <baggage baggage_tag="ITY" baggage_id="ITY1698"/>
+      <passenger fisrt_name="Jane"/>
+    </booking>
+  </seat>
+</bts:Bus>
