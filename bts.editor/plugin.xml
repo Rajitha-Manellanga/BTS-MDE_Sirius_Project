@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated bts -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="bts.presentation.BtsModelWizardID"
+            name="%_UI_BtsModelWizard_label"
+            class="bts.presentation.BtsModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/BtsModelFile.gif">
+         <description>%_UI_BtsModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated bts -->
+      <editor
+            id="bts.presentation.BtsEditorID"
+            name="%_UI_BtsEditor_label"
+            icon="icons/full/obj16/BtsModelFile.gif"
+            extensions="bts"
+            class="bts.presentation.BtsEditor"
+            contributorClass="bts.presentation.BtsActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
